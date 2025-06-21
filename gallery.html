@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>西王母图像集</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      text-align: center;
+      padding: 20px;
+    }
+    .gallery {
+      column-count: 3;
+      column-gap: 10px;
+      padding: 0 20px;
+    }
+    .gallery img {
+      width: 100%;
+      margin-bottom: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: transform 0.2s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.7);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    .overlay-content {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 90%;
+      max-height: 90%;
+      overflow: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .overlay-content img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .description {
+      margin-top: 10px;
+      font-size: 14px;
+      text-align: left;
+    }
+    .close-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 30px;
+      color: white;
+      cursor: pointer;
+    }
+    @media (max-width: 768px) {
+      .gallery {
+        column-count: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>西王母图像集</h1>
+  <div class="gallery">
+    <img src="西王母/1.西王母画像砖（成都市新都区新龙乡）（现存四川省博物馆）.png" data-desc="西王母画像砖（成都市新都区新龙乡）（现存四川省博物馆）">
+    <img src="西王母/2.西王母画像砖（山东嘉祥纸坊）.png"  data-desc="西王母画像砖（山东嘉祥纸坊）">
+    <img src="西王母/3.西王母画像砖（河南新野出⼟）.png" data-desc="西王母画像砖（河南新野出⼟）">
+    <img src="西王母/4.西王母画像砖（四川彭⼭江⼝乡双河崖墓出⼟）.png"  data-desc="西王母画像砖（四川彭⼭江⼝乡双河崖墓出⼟）">
+    <img src="西王母/5.朱拓四川画像砖（右侧为西王母）.png" data-desc="朱拓四川画像砖（右侧为西王母）">
+    <img src="西王母/6.西王母主题壁画（甘肃酒泉丁家闸5号墓）.png"  data-desc="西王母主题壁画（甘肃酒泉丁家闸5号墓）">
+    <img src="西王母/7.西王母画像砖（洛阳洛宁县出土）.png" data-desc="西王母画像砖（洛阳洛宁县出土）">
+    <img src="西王母/8.西王母门楣画像（陕西绥德墓）.png"  data-desc="西王母门楣画像（陕西绥德墓）">
+    <img src="西王母/9.滕州市大郭村西王母画像石.png" data-desc="滕州市大郭村西王母画像石">
+    <img src="西王母/10.西王母立柱画像（陕西靖边寨门）.png"  data-desc="西王母立柱画像（陕西靖边寨门）">
+    <img src="西王母/12.jpeg" data-desc="汉代西王母画像砖">
+    <img src="西王母/13.(东汉) 西王母、公孙子都暗射颍考叔画像  石刻拓片 纵69厘米 横67厘米  山东省嘉祥县满硐乡宋山出土  山东石刻艺术博物馆藏.jpeg"  data-desc="(东汉) 西王母、公孙子都暗射颍考叔画像  石刻拓片 纵69厘米 横67厘米  山东省嘉祥县满硐乡宋山出土  山东石刻艺术博物馆藏">
+    <img src="西王母/14.朝元图西王母.jpeg" data-desc="朝元图西王母">
+    <img src="西王母/15.东汉时期的西王母画像砖，1972年出土于四川省大邑县安仁镇，现收藏于四川博物院.jpg"  data-desc="15.东汉时期的西王母画像砖，1972年出土于四川省大邑县安仁镇，现收藏于四川博物院">
+    <img src="西王母/16.酒泉丁家闸十六国墓，西顶壁画西王母.jpg" data-desc="酒泉丁家闸十六国墓，西顶壁画西王母">
+    <img src="西王母/17.南阳汉画像石，昆仑山西王母.jpg"  data-desc="南阳汉画像石，昆仑山西王母">
+    <img src="西王母/18.铜山县茅村出土汉画像，上层刻西王母、羽人，玉兔捣药等.jpg" data-desc="铜山县茅村出土汉画像，上层刻西王母、羽人，玉兔捣药等">
+    <img src="西王母/19.武梁祠西壁画像（第一层：西王母和奇禽异兽）.jpg"  data-desc="武梁祠西壁画像（第一层：西王母和奇禽异兽）">
+    <img src="西王母/20.新野县樊集吊窑M28画像砖（局部）.png" data-desc="新野县樊集吊窑M28画像砖（局部）">
+    <img src="西王母/21.西王母画像石（汉代嘉祥地区洪山村）（.png"  data-desc="西王母画像石（汉代嘉祥地区洪山村）">
+    <img src="西王母/22.新野县文化馆藏画像砖（局部）.png" data-desc="新野县文化馆藏画像砖（局部）">
+    <img src="西王母/23.南阳汉画像石（1）.jpg"  data-desc="南阳汉画像石（1）">
+    <img src="西王母/24.西王母画像砖（山东滕州桑村镇西户口出土）.jpg" data-desc="西王母画像砖（山东滕州桑村镇西户口出土）">
+    <img src="西王母/25.新郑画像砖.png"  data-desc="新郑画像砖">
+    <img src="西王母/26.许昌出土汉画像砖.png" data-desc="许昌出土汉画像砖">
+    <img src="西王母/27豫中地区出土汉画像砖.png"  data-desc="豫中地区出土汉画像砖">
+    <img src="西王母/28.郑州出土汉画像砖（2）.png" data-desc="郑州出土汉画像砖（2）">
+    <img src="西王母/29.郑州出土汉画像砖.png"  data-desc="郑州出土汉画像砖">
+    <img src="西王母/30.郑州市北二街M4画像砖.png" data-desc="郑州市北二街M4画像砖">
+    <img src="西王母/31.西王母画像砖.jpeg"  data-desc="西王母画像砖">
+    <img src="西王母/32.西王母画像砖（河南郑州二里岗）.jpeg" data-desc="西王母画像砖（河南郑州二里岗）">
+    <img src="西王母/33.西王母画像砖（河南新密）.jpeg"  data-desc="西王母画像砖（河南新密）">
+    <img src="西王母/34.西王母画像砖（河南郑州）.jpeg" data-desc="西王母画像砖（河南郑州）">
+    <img src="西王母/35.西王母画像砖（山东邹城高庄乡金斗山）（祠堂构件） .jpeg"  data-desc="西王母画像砖（山东邹城高庄乡金斗山）（祠堂构件） ">
+    <img src="西王母/36.西王母画像砖（密县打虎亭汉墓主室门正面画像）.jpeg" data-desc="西王母画像砖（密县打虎亭汉墓主室门正面画像）">
+    <img src="西王母/37..西王母画像砖（新密周岗汉画空心砖墓）.jpeg"  data-desc="西王母画像砖（新密周岗汉画空心砖墓）">
+    <img src="西王母/38.西王母画像砖（陕北田鲂墓墓门楣画像石）.jpeg" data-desc="西王母画像砖（陕北田鲂墓墓门楣画像石）">
+    <img src="西王母/39.西王母画像砖（彭山县江口乡梅花村崖墓）.jpeg"  data-desc="西王母画像砖（彭山县江口乡梅花村崖墓）">
+    <img src="西王母/40.西王母画像砖（新津县.jpeg" data-desc="西王母画像砖（新津县）">
+    <img src="西王母/41.西王母画像砖（郫县二号石棺）.jpeg"  data-desc="西王母画像砖（郫县二号石棺）">
+    <img src="西王母/42.偃师新莽壁画墓西王母线描图.jpeg" data-desc="偃师新莽壁画墓西王母线描图">
+    <img src="西王母/43.樊集吊窑西王母画像砖线描图.jpeg"  data-desc="樊集吊窑西王母画像砖线描图">
+    <img src="西王母/44.嘉祥县嘉祥村西王母画像石线描图.jpeg" data-desc="嘉祥县嘉祥村西王母画像石线描图">
+    <img src="西王母/45.西王母画像砖（郑州新通桥汉画空心砖墓）.jpeg"  data-desc="西王母画像砖（郑州新通桥汉画空心砖墓）">
+    <img src="西王母/46.西王母画像砖（现存南阳汉画馆）.jpeg" data-desc="西王母画像砖（现存南阳汉画馆）">
+    <img src="西王母/47.西王母画像砖（新野樊集吊窑M37墓）.jpeg"  data-desc="西王母画像砖（新野樊集吊窑M37墓）">
+    <img src="西王母/48.西王母画像砖（滕州桑村镇西户口村）（祠堂构件）.jpeg" data-desc="西王母画像砖（滕州桑村镇西户口村）（祠堂构件）">
+    <img src="西王母/49.西王母画像石（陕西神木大堡当M5墓门画像石）.jpg"  data-desc="西王母画像石（陕西神木大堡当M5墓门画像石）">
+    <img src="西王母/50.西王母画像石（陕西米脂县1981 年墓门左右立柱画像）（处悬圃之间）.jpeg" data-desc="西王母画像石（陕西米脂县1981 年墓门左右立柱画像）（处悬圃之间）">
+    <img src="西王母/51.西王母画像石（陕西神木大保当 M17 墓1998 年墓门画像）（处悬圃间）.jpeg"  data-desc="西王母画像石（陕西神木大保当 M17 墓1998 年墓门画像）（处悬圃间）">
+    <img src="西王母/52.西王母画像石（陕西绥德1975 年墓门右立柱画像）（悬圃间）.jpeg" data-desc="西王母画像石（陕西绥德1975 年墓门右立柱画像）（悬圃间）">
+    <img src="西王母/55.西王母画像砖（山西离石墓门画像）（悬圃间）.jpeg"  data-desc="西王母画像砖（山西离石墓门画像）（悬圃间）">
+    <img src="西王母/56.西王母画像砖（陕西绥德县四十里铺 1975 年墓门楣画像）（鸡首人身后）.jpeg" data-desc="西王母画像砖（陕西绥德县四十里铺 1975 年墓门楣画像）（鸡首人身后）">
+    <img src="西王母/57.西王母画像砖（成都市新都区新民乡梓潼村M3 墓1987 年）.jpeg"  data-desc="西王母画像砖（成都市新都区新民乡梓潼村M3 墓1987 年）">
+    <img src="西王母/58.西王母画像砖（四川省博物馆藏（成都市收集1985 年）.jpeg" data-desc="西王母画像砖（四川省博物馆藏（成都市收集1985 年）">
+    <img src="西王母/59.西王母画像砖（四川大学博物馆藏）（成都市西门外1942 年.jpeg"  data-desc="西王母画像砖（四川大学博物馆藏）（成都市西门外1942 年">
+    <img src="西王母/60.西王母画像砖（四川省博物馆藏）（彭山县收集1943 年）.jpeg" data-desc="西王母画像砖（四川省博物馆藏）（彭山县收集1943 年）">
+    <img src="西王母/61.西王母画像砖（四川省博物馆藏）（新津县）.jpeg"  data-desc="西王母画像砖（四川省博物馆藏）（新津县）">
+    <img src="西王母/62.西王母画像砖（大邑县文管所藏）（大邑县董场乡1988 年）.jpeg" data-desc="西王母画像砖（大邑县文管所藏）（大邑县董场乡1988 年）">
+    <img src="西王母/63.西王母画像砖（青乐山麻浩崖墓博物馆藏）（彭山一号石棺彭山县江口乡双河崖墓 1983 年.jpeg"  data-desc="西王母画像砖（青乐山麻浩崖墓博物馆藏）（彭山一号石棺彭山县江口乡双河崖墓 1983 年">
+    <img src="西王母/64.西王母画像砖（四川省博物馆藏）（郫县四号石棺郫县新胜乡1974 年）.jpeg" data-desc="西王母画像砖（四川省博物馆藏）（郫县四号石棺郫县新胜乡1974 年）">
+    <img src="西王母/65.西王母画像砖（泸州市博物馆藏）（合江四号石棺合江张家沟崖墓1994 年.jpeg"  data-desc="西王母画像砖（泸州市博物馆藏）（合江四号石棺合江张家沟崖墓1994 年">
+    <img src="西王母/66.东汉彩绘西王母彩陶摇钱树座，广汉市文物保护研究所藏.png" data-desc="东汉彩绘西王母彩陶摇钱树座，广汉市文物保护研究所藏">
+    <img src="西王母/67.山东滕州西户口村出土东汉画像石.png"  data-desc="山东滕州西户口村出土东汉画像石">
+    <img src="西王母/68.山东滕州汉画像石馆藏西王母石雕.png" data-desc="山东滕州汉画像石馆藏西王母石雕">
+    <img src="西王母/69.陕西定边郝滩乡出土的东汉西王母壁画.png"  data-desc="陕西定边郝滩乡出土的东汉西王母壁画">
+    <img src="西王母/70.海昏侯刘贺墓出土孔子衣镜镜框上方两段端坐的西王母和东王公.png" data-desc="海昏侯刘贺墓出土孔子衣镜镜框上方两段端坐的西王母和东王公">
+    <img src="西王母/71.西王母画像砖.png"  data-desc="西王母画像砖">
+    <img src="西王母/72.西王母画像砖敦煌佛爷庙湾西晋墓.png" data-desc="西王母画像砖敦煌佛爷庙湾西晋墓">
+    <img src="西王母/73.酒泉丁家闸五号墓墓顶东壁.png"  data-desc="酒泉丁家闸五号墓墓顶东壁">
+    <img src="西王母/74.敦煌莫高窟第249窟南披.png" data-desc="敦煌莫高窟第249窟南披">
+    <img src="西王母/75.东晋顾恺之洛神赋图局部.png"  data-desc="东晋顾恺之洛神赋图局部">
+    <img src="西王母/76.山东嘉祥洪村出土祠堂西壁画像石.png" data-desc="山东嘉祥洪村出土祠堂西壁画像石">
+    <img src="西王母/77.山西吕梁汉代立柱画像石飞升图.png"  data-desc="山西吕梁汉代立柱画像石飞升图">
+    <img src="西王母/78.沂南汉墓墓门东立柱画像.png" data-desc="沂南汉墓墓门东立柱画像">
+    <img src="西王母/79.白集祠堂东壁画像.png"  data-desc="白集祠堂东壁画像">
+    <img src="西王母/80.山东微山西王母画像石.png" data-desc="山东微山西王母画像石">
+    <img src="西王母/81.山东省济宁市嘉祥县纸坊镇武翟山村武梁祠西壁画像.png"  data-desc="山东省济宁市嘉祥县纸坊镇武翟山村武梁祠西壁画像">
+    <img src="西王母/82.滕州市王开村西王母画像石.png" data-desc="滕州市王开村西王母画像石">
+    <img src="西王母/83.滕州市造纸厂西王母画像石.png"  data-desc="滕州市造纸厂西王母画像石">
+    <img src="西王母/84.嘉祥五老洼西王母画像石.png" data-desc="嘉祥五老洼西王母画像石">
+    <img src="西王母/85.临沂东汉后期西王母、东王公画像石.png"  data-desc="临沂东汉后期西王母、东王公画像石">
+    <img src="西王母/86.沂南北寨东汉西王母、东王公墓门画像石.png" data-desc="沂南北寨东汉西王母、东王公墓门画像石">
+    <img src="西王母/87.山东省滕州市大康留村.png"  data-desc="山东省滕州市大康留村">
+    <img src="西王母/88.山东省滕州市宏道院.png" data-desc="山东省滕州市宏道院">
+    <img src="西王母/90.滕州市马王村西汉晚期西王母画像石（局部）.png"  data-desc="滕州市马王村西汉晚期西王母画像石（局部）">
+    <img src="西王母/91.滕州市龙阳店西王母画像砖.png" data-desc="滕州市龙阳店西王母画像砖">
+    <img src="西王母/92.滕州市城关镇西王母画像砖.png"  data-desc="滕州市城关镇西王母画像砖">
+    <img src="西王母/93.滕州市桑村镇西王母画像砖.png" data-desc="滕州市桑村镇西王母画像砖">
+    <img src="西王母/94.滕州市宏道院西王母画像砖.png"  data-desc="滕州市宏道院西王母画像砖">
+    <img src="西王母/95.滕州市桑村镇西户口西王母画像石.png" data-desc="滕州市桑村镇西户口西王母画像石">
+    <img src="西王母/96.滕州市大岩头村西王母画像石.png"  data-desc="滕州市大岩头村西王母画像石">
+    <img src="西王母/97.滕州市西户口西王母画像石.png" data-desc="滕州市西户口西王母画像石">
+    <img src="西王母/98.四川荥经县画像石棺左侧秘戏图.png"  data-desc="四川荥经县画像石棺左侧秘戏图">
+    <img src="西王母/99.四川南溪长顺坡3号画像石墓石棺侧挡.png" data-desc="四川南溪长顺坡3号画像石墓石棺侧挡">
+    <img src="西王母/100.长清孝堂山石祠西壁画像 局部.png"  data-desc="长清孝堂山石祠西壁画像 局部">
+    <img src="西王母/101.四川省成都市新都区新繁镇画像砖.png" data-desc="四川省成都市新都区新繁镇画像砖">
+    <img src="西王母/102.四川省德阳市什邡市画像砖.png"  data-desc="四川省德阳市什邡市画像砖">
+    <img src="西王母/103.四川省眉山市彭山区江口崖墓一号石棺画像.png" data-desc="四川省眉山市彭山区江口崖墓一号石棺画像">
+    <img src="西王母/104.四川省郫县新胜 2、3 号砖室墓 2 号石棺左侧画像.png"  data-desc="四川省郫县新胜 2、3 号砖室墓 2 号石棺左侧画像">
+    <img src="西王母/105.山东省济宁市嘉祥县纸坊镇武翟山村武氏祠前石室东壁上石画像.png" data-desc="山东省济宁市嘉祥县纸坊镇武翟山村武氏祠前石室东壁上石画像">
+    <img src="西王母/106.山东省济宁市嘉祥县城东北洪山村画像石.png"  data-desc="山东省济宁市嘉祥县城东北洪山村画像石">
+    <img src="西王母/107.四川省泸州市合江十五号石棺画像.png" data-desc="四川省泸州市合江十五号石棺画像">
+    <img src="西王母/108.南阳魏公桥画像石.png"  data-desc="南阳魏公桥画像石">
+    <img src="西王母/109.南阳宛城区画像石.png" data-desc="南阳宛城区画像石">
+
+    <!-- 可继续添加更多图片 -->
+  </div>
+
+<div class="overlay" id="overlay">
+    <div class="close-btn" id="closeBtn">&times;</div>
+    <div class="overlay-content">
+      <img id="fullImage" src="" alt="">
+      <div class="description" id="imageDesc"></div>
+    </div>
+  </div>
+
+  <script>
+    const overlay = document.getElementById("overlay");
+    const fullImage = document.getElementById("fullImage");
+    const imageDesc = document.getElementById("imageDesc");
+    const closeBtn = document.getElementById("closeBtn");
+
+    document.querySelectorAll(".gallery img").forEach(img => {
+      img.addEventListener("click", () => {
+        fullImage.src = img.src;
+        imageDesc.textContent = img.getAttribute("data-desc") || "";
+        overlay.style.display = "flex";
+      });
+    });
+
+    closeBtn.addEventListener("click", () => {
+      overlay.style.display = "none";
+    });
+  </script>
+</body>
+</html>
